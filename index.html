@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type="text/css">
   
     <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -17,10 +17,107 @@
   
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/project445-favicon.png">
+    
 </head>
 <body>
-    <div class="banner">
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <i class="navbar-brand" href="#">
+            <a href="#">ExploreAustralia</a> 
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#places">Place to Go</a></li>
+            <li><a href="#contactus">Contact us</a></li>
+            <li><a href="#ourteam">Our Team</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="banner" id="home">
         <h1>Explore Australia</h1>
     </div>
+
+    <div class="about" id="about">
+		<h1 class="title">About us</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ipsam labore quos quam, tempora recusandae nemo laudantium, ad vitae vel repellendus dolores placeat. Velit distinctio natus, facilis quia! Voluptas nam, animi quidem doloremque mollitia accusamus voluptatum quos totam consequatur. Temporibus rerum recusandae nobis vel architecto beatae esse facilis repellat. Et repellat similique ad ab harum doloribus dolorum. Iste suscipit blanditiis vero qui aliquid omnis quasi, delectus vel adipisci et ratione maiores soluta facilis earum voluptate.</p>
+	
+    </div>
+    
+    <div class="places" id="places">
+		<h1 class="title">Place to go</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ipsum neque, nobis ratione vitae eum quibusdam quidem culpa dolorum autem sequi. Rem at beatae debitis.</p>
+
+		<div class="diff_places">
+			<div class="diff_places_item">
+				<img src="images/Greatoceanroad.jpg" alt="Greatoceanroad">
+				<h3>Great Ocean Road</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, blanditiis.</p>
+			</div>
+			<div class="diff_places_item">
+				<img src="/images/phillpisland.jpg" alt="Phillpisland">
+				<h3>Phillp Island</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, blanditiis.</p>
+			</div>
+			<div class="diff_places_item">
+				<img src="/images/yarra valley.jpg" alt="YarraValley">
+				<h3>Yarra Valley</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, blanditiis.</p>
+			</div>
+		</div>
+	</div>
+
+    <div class="contactus" id="contactus">
+		<h1 class="title">Contact Us</h1>
+		<div class="form_wrapper">
+			<div class="form_input">
+				<input type="text" placeholder="Email">
+			</div>
+			<div class="form_input">
+				<input type="text" placeholder="Subject">
+			</div>
+			<div class="form_input">
+				<textarea placeholder="Message"></textarea>
+			</div>
+			<div class="btn">
+				<a href="#">Submit</a>
+			</div>
+		</div>
+	</div>
+
+    <div class="row" id="ourteam">
+        <h1 class="title">Our Team</h1>
+        <div class="column">
+          <div class="card">
+            <img src="/images/Jay.png" alt="Jay">
+            <div class="container">
+              <h2>Jay Seo</h2>
+              <p class="title">Junior Web developer</p>
+              <p>lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p><button class="button"><Strong>Contact</Strong></button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/kim.jpg" alt="Kim">
+            <div class="container">
+              <h2>Hyung Kim</h2>
+              <p class="title">Junior Webd eveloper</p>
+              <p>lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p><button class="button"><Strong>Contact</Strong></button></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="footer">
+    <a href="#">Project445</a>
+</div>
 </body>
 </html>
